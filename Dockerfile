@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 
 RUN \
-  apt-get update && \
-apt-get install -y golang
+  apt update && \
+apt install -y golang \
+apt install -y nano
